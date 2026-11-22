@@ -1,11 +1,11 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="https://github.com/user-attachments/assets/0186fa5d-7509-4f2a-a461-6c712c6366a9" />
-  <img src="https://github.com/user-attachments/assets/79588ebd-4ea9-457e-a801-054a7c1a0962" alt="Mahmoud Abdel Hamid | AI / Data Science" width="100%" />
+  <source media="(max-width: 600px)" srcset="https://github.com/user-attachments/assets/c2118920-880b-4305-a1da-b5a6aa666afe" />
+  <img src="https://github.com/user-attachments/assets/5d3d4605-945d-4f4e-8ce2-a2594bef6143" alt="Mahmoud Abdel Hamid | AI / Data Science" width="100%" />
 </picture>
 
 <p align="center"><strong>AI &amp; Data Science student turning raw data into working machine-learning products.</strong></p>
 
-<p align="center"><picture><img src="https://github.com/user-attachments/assets/2fcb08fd-7e57-47e9-8f55-d697eaf691e4" alt="Turning raw data into working ML products." width="700" /></picture></p>
+<p align="center"><picture><img src="https://github.com/user-attachments/assets/d75c40d7-e70c-4c5e-9e8f-ec48d5238dff" alt="Turning raw data into working ML products." width="700" /></picture></p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-0b1220?style=for-the-badge&logo=python&logoColor=67e8f9" alt="Python" />
@@ -18,7 +18,7 @@
 <img src="https://img.shields.io/badge/JavaScript-0b1220?style=for-the-badge&logo=javascript&logoColor=67e8f9" alt="JavaScript" />
 </p>
 
-<p align="center"><picture><img src="https://github.com/user-attachments/assets/4c8bd17a-30db-40b5-89fa-b98a91903a6e" alt="Data to models to products" width="900" /></picture></p>
+<p align="center"><picture><img src="https://github.com/user-attachments/assets/09542213-6980-4d23-9e73-4ecbdf32df7b" alt="Data to models to products" width="900" /></picture></p>
 
 <h2>Selected projects</h2>
 
@@ -27,24 +27,24 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<picture><img src="https://github.com/user-attachments/assets/0bdc759c-4471-4d1f-94c6-7dea7105211d" alt="" width="100%" /></picture>
+<picture><img src="https://github.com/user-attachments/assets/e2a1e8c8-2719-4bf8-9307-7111b5c47929" alt="" width="100%" /></picture>
 <h3>01 / <a href="https://github.com/mahmoudabdalhamid10-alt/ReproCare360">ReproCare360</a></h3>
 <p>privacy-first reproductive-health education app: local journaling, evidence retrieval, REST API and a Streamlit dashboard.</p>
 </td>
 <td width="50%" valign="top">
-<picture><img src="https://github.com/user-attachments/assets/bedfbd8a-a450-4c81-af2a-3cc9718f9a08" alt="" width="100%" /></picture>
+<picture><img src="https://github.com/user-attachments/assets/eb75ff3d-5b09-49c5-88b1-041ab93652db" alt="" width="100%" /></picture>
 <h3>02 / <a href="https://github.com/mahmoudabdalhamid10-alt/sindbad">Sindbad</a></h3>
 <p>Arabic/English B2B marketplace prototype with FastAPI, SQLite and hybrid product recommendations.</p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<picture><img src="https://github.com/user-attachments/assets/a291b82d-f55c-45d7-8ab2-e742198bd11e" alt="" width="100%" /></picture>
+<picture><img src="https://github.com/user-attachments/assets/2484d76f-5ad6-4faa-984c-320f3b0cabbf" alt="" width="100%" /></picture>
 <h3>03 / <a href="https://github.com/mahmoudabdalhamid10-alt/Food-Nutrition-Classification">Food Nutrition Classification</a></h3>
 <p>collaborative ML project comparing models for nutrition-based food classification.</p>
 </td>
 <td width="50%" valign="top">
-<picture><img src="https://github.com/user-attachments/assets/a1060b53-775b-4475-a1b2-c39cb660fe98" alt="" width="100%" /></picture>
+<picture><img src="https://github.com/user-attachments/assets/0c23edde-8aa3-4cc1-9df4-d1c15344c95f" alt="" width="100%" /></picture>
 <h3>04 / <a href="https://github.com/mahmoudabdalhamid10-alt/horus-game">HORUS</a></h3>
 <p>browser-based space-mission game with resource constraints and mission simulation.</p>
 </td>
