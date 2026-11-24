@@ -57,6 +57,13 @@
 </tr>
 </table>
 
+<h2>Open-source contributions</h2>
+
+<ul>
+<li><b><a href="https://github.com/scikit-learn-contrib/category_encoders/pull/574">category_encoders #574</a></b> (merged): fixed RankHotEncoder failing on empty (zero-row) input. Closes issue #573.</li>
+<li><b><a href="https://github.com/tslearn-team/tslearn/pull/835">tslearn #835</a></b> (open, in review): distance functions now accept series with mismatched feature counts.</li>
+</ul>
+
 ### GitHub activity
 
 <p align="center">
