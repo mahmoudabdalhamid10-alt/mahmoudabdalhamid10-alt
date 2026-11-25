@@ -57,6 +57,13 @@
 </tr>
 </table>
 
+<h2>More machine learning</h2>
+
+<ul>
+<li><b><a href="https://github.com/mahmoudabdalhamid10-alt/timeseries-benchmark">timeseries-benchmark</a></b>: time-series classification and clustering on five UCR datasets. Euclidean vs DTW 1-NN vs a ROCKET-style classifier written from scratch, with honest results and tests.</li>
+<li><b><a href="https://github.com/mahmoudabdalhamid10-alt/telco-churn-pipeline">telco-churn-pipeline</a></b>: customer churn prediction with a leakage-safe sklearn pipeline, calibrated probabilities and a cost-based decision threshold (test ROC-AUC 0.849).</li>
+</ul>
+
 <h2>Open-source contributions</h2>
 
 <ul>
