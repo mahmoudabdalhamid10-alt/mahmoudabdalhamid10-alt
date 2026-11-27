@@ -28,47 +28,42 @@
 
 <h2>Selected projects</h2>
 
-<sub>Artwork is illustrative.</sub>
-
 <table>
-<tr>
-<td width="50%" valign="top">
-<picture><img src="https://github.com/user-attachments/assets/e2a1e8c8-2719-4bf8-9307-7111b5c47929" alt="" width="100%" /></picture>
-<h3>01 / <a href="https://github.com/mahmoudabdalhamid10-alt/ReproCare360">ReproCare360</a></h3>
-<p>privacy-first reproductive-health education app: local journaling, evidence retrieval, REST API and a Streamlit dashboard.</p>
-</td>
-<td width="50%" valign="top">
-<picture><img src="https://github.com/user-attachments/assets/eb75ff3d-5b09-49c5-88b1-041ab93652db" alt="" width="100%" /></picture>
-<h3>02 / <a href="https://github.com/mahmoudabdalhamid10-alt/sindbad">Sindbad</a></h3>
-<p>Arabic/English B2B marketplace prototype with FastAPI, SQLite and hybrid product recommendations.</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<picture><img src="https://github.com/user-attachments/assets/2484d76f-5ad6-4faa-984c-320f3b0cabbf" alt="" width="100%" /></picture>
-<h3>03 / <a href="https://github.com/mahmoudabdalhamid10-alt/Food-Nutrition-Classification">Food Nutrition Classification</a></h3>
-<p>collaborative ML project comparing models for nutrition-based food classification.</p>
-</td>
-<td width="50%" valign="top">
-<picture><img src="https://github.com/user-attachments/assets/0c23edde-8aa3-4cc1-9df4-d1c15344c95f" alt="" width="100%" /></picture>
-<h3>04 / <a href="https://github.com/mahmoudabdalhamid10-alt/horus-game">HORUS</a></h3>
-<p>browser-based space-mission game with resource constraints and mission simulation.</p>
-</td>
-</tr>
+<tr><th align="left">Project</th><th align="left">What it is</th><th align="left">Result or status</th></tr>
+<tr><td><b><a href="https://github.com/mahmoudabdalhamid10-alt/sindbad">Sindbad</a></b><br/><sub><a href="https://sindbad.onrender.com">live demo</a></sub></td>
+<td>Arabic/English B2B marketplace on FastAPI and Postgres, with an admin dashboard and a hybrid recommender (TF-IDF content, item-item CF, SVD, popularity fallback for new users).</td>
+<td>HitRate@10 0.758 vs 0.205 for popularity, measured on synthetic buyers (stated in the README). 26 tests.</td></tr>
+<tr><td><b><a href="https://github.com/mahmoudabdalhamid10-alt/plant-doctor">Plant Doctor</a></b><br/><sub><a href="https://mahmoudabdalhamid10-alt.github.io/plant-doctor/">live demo</a></sub></td>
+<td>Leaf photo to disease and treatment advice in Arabic. The model runs in the browser (ONNX), so photos never leave the device.</td>
+<td>97.9% accuracy on the PlantVillage test split, 15.7% on real field photos (PlantDoc). Both numbers are in the README.</td></tr>
+<tr><td><b><a href="https://github.com/mahmoudabdalhamid10-alt/masreyyat">Masreyyat</a></b></td>
+<td>Egyptian Arabic sentiment baseline (character n-gram TF-IDF and logistic regression), stress-tested on Egyptian-dialect tweets.</td>
+<td>94.4% in-domain, 54.0% accuracy on Egyptian tweets. The gap is the point of the project.</td></tr>
+<tr><td><b><a href="https://github.com/mahmoudabdalhamid10-alt/egypt-open-data-api">Egypt Open Data API</a></b><br/><sub><a href="https://egypt-open-data-api.onrender.com/">live API</a></sub></td>
+<td>JSON API for official fuel prices, EGP reference rates and World Bank series. Every response names its source and licence.</td>
+<td>Live on Render, OpenAPI docs at /docs.</td></tr>
+<tr><td><b><a href="https://github.com/mahmoudabdalhamid10-alt/telco-churn-pipeline">telco-churn-pipeline</a></b></td>
+<td>Churn prediction on the IBM Telco data: leakage-safe sklearn pipeline, calibrated probabilities, cost-based decision threshold, test set used once.</td>
+<td>Test ROC-AUC 0.849.</td></tr>
+<tr><td><b><a href="https://github.com/mahmoudabdalhamid10-alt/timeseries-benchmark">timeseries-benchmark</a></b></td>
+<td>Time-series classification and clustering on five UCR datasets: Euclidean vs DTW 1-NN vs a ROCKET-style classifier written from scratch.</td>
+<td>Reproducible, with tests and raw result tables.</td></tr>
 </table>
 
-<h2>More machine learning</h2>
+<h2>More</h2>
 
 <ul>
-<li><b><a href="https://github.com/mahmoudabdalhamid10-alt/timeseries-benchmark">timeseries-benchmark</a></b>: time-series classification and clustering on five UCR datasets. Euclidean vs DTW 1-NN vs a ROCKET-style classifier written from scratch, with honest results and tests.</li>
-<li><b><a href="https://github.com/mahmoudabdalhamid10-alt/telco-churn-pipeline">telco-churn-pipeline</a></b>: customer churn prediction with a leakage-safe sklearn pipeline, calibrated probabilities and a cost-based decision threshold (test ROC-AUC 0.849).</li>
+<li><b><a href="https://github.com/mahmoudabdalhamid10-alt/muzakkir">Muzakkir</a></b> (<a href="https://mahmoudabdalhamid10-alt.github.io/muzakkir/">live</a>) and <b><a href="https://github.com/mahmoudabdalhamid10-alt/medu-neter">Medu Neter</a></b> (<a href="https://mahmoudabdalhamid10-alt.github.io/medu-neter/">live</a>): a browser-only AI study companion, and an English-to-hieroglyphs typewriter.</li>
+<li><b><a href="https://github.com/mahmoudabdalhamid10-alt/polite-scraper">polite-scraper</a></b> (<a href="https://polite-scraper.onrender.com/">live</a>): a web scraper that obeys robots.txt and rate limits.</li>
+<li>Team and challenge projects: <a href="https://github.com/mahmoudabdalhamid10-alt/ReproCare360">ReproCare360</a> (privacy-first health education app), <a href="https://github.com/mahmoudabdalhamid10-alt/Food-Nutrition-Classification">Food-Nutrition-Classification</a> (collaborative ML comparison), <a href="https://github.com/mahmoudabdalhamid10-alt/amun">Amun</a> and <a href="https://github.com/mahmoudabdalhamid10-alt/horus-game">HORUS</a> (NASA Space Apps mission design tools), <a href="https://github.com/mahmoudabdalhamid10-alt/heart-disease-prediction">heart-disease-prediction</a>.</li>
 </ul>
 
 <h2>Open-source contributions</h2>
 
 <ul>
 <li><b><a href="https://github.com/scikit-learn-contrib/category_encoders/pull/574">category_encoders #574</a></b> (merged): fixed RankHotEncoder failing on empty (zero-row) input. Closes issue #573.</li>
-<li><b><a href="https://github.com/tslearn-team/tslearn/pull/835">tslearn #835</a></b> (open, in review): distance functions now accept series with mismatched feature counts.</li>
+<li><b><a href="https://github.com/tslearn-team/tslearn/pull/840">tslearn #840</a></b> (open): adds a Sakoe-Chiba band, measured from the match start, to subsequence DTW (<a href="https://github.com/tslearn-team/tslearn/issues/337">#337</a>). Tested against a brute-force reference.</li>
+<li><b><a href="https://github.com/tslearn-team/tslearn/pull/835">tslearn #835</a></b> (closed): feature-size checks in the cross-distance functions. The maintainer merged an equivalent change in <a href="https://github.com/tslearn-team/tslearn/pull/838">#838</a> and wrote that it reuses most of this work.</li>
 </ul>
 
 ### GitHub activity
